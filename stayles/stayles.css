@@ -1,0 +1,614 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* header qisim boshlandi */
+
+#header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.navber_left{
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 20%;
+    margin-bottom: 2%;
+}
+
+.navber_left a:active {
+    color: red;
+}
+
+.navber_left a img{
+    width: 100%;
+    margin-top: -5px;
+}
+
+.navber_left a{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 25px;
+    color: black;
+}
+
+.navber_right {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+.navber_right i {
+    margin-left: 30%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.navber_right i:active{
+    color: red;
+}
+
+.navber_right li a {
+    color: black;
+}
+
+.navber_right li a:active {
+    color: red;
+}
+
+.navbar_right_ul {
+    list-style: none;
+    position: absolute;
+    right: 100px;
+    padding-top: 10px;
+}
+
+.navbar_right_ul li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* header qisim tugadi*/
+
+/* main qisim tugadi*/
+
+/* main qisimni container  birinchisi boshlandi*/
+
+.main_container {
+    background: #F9F8F9;
+    padding-top: 6%;
+    height: 938px;
+}
+
+.main_container h1 {
+    color: #094B72;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 100%;  
+    padding-top: 8%;
+}
+
+.main_container p {
+    color: #4F4F4F;
+    font-family: 'Plus Jakarta Sans';
+    margin-top: 8%;
+    margin-bottom: 5%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 150%;
+}
+
+.main_container button {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140.5%;
+    color: #F9F8F9;
+    background-color: #094B72;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor:pointer;
+}
+
+.main_container button:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.main_container button:active{
+    color: red;
+}
+
+.main_p {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    margin-top: 10%;
+    color: #6b7373 !important;
+}
+
+.main_img {
+    margin-right: 60px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    
+}
+
+@keyframes example {
+    50%   { left:0px; top:0px;}
+    100%  { left:200px; top:0px;}
+  }
+
+.main_img2 {
+    margin-right: 25px;
+    margin-bottom: 10%;
+    position: relative;
+    animation-name: example2;
+    animation-duration: 8s;
+}
+
+@keyframes example2 {
+    50%   { left:0px; top:0px;}
+    100%  { left:200px; top:0px;}
+
+  }
+  
+.container_left {
+    position: relative;
+    left: 17%;
+}
+
+.container_right {
+    width: 50% ;
+    margin-top: -8%;
+    margin-left: -15%;
+}
+
+
+/* main qisimni container  birinchisi tugadi */
+
+/* main qisim container2  ikinchi boshlandi */
+
+.main_container2 {
+    width: 100%;
+    background-color: #F2FCFF;;
+}
+
+.continer2_left {
+    margin-left: -3%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.continer2_left h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.323077px;
+    color: #2D2F30;
+}
+
+.continer2_left p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    color: #8B8C8C;
+}
+
+.con2_top_left:hover {
+    /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+}
+
+.con2_top_left{
+    background-color: white;
+    width: 50%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.con2_top_left img {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.con2_top_left h4 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.con2_top_left p {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #8B8C8C;
+}
+
+.continer2_right_top{
+    margin-top: 10%;
+    width: 50%;
+}
+
+
+.continer2_right h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.323077px;
+    color: #2D2F30;
+}
+
+.continer2_right p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    color: #8B8C8C;
+}
+
+.con2_top_right:hover {
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.con2_top_right{
+    background-color: white;
+    width: 50%;
+    height: 250px;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+.con2_top_right img {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.con2_top_right h4 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.con2_top_right p {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #8B8C8C;
+}
+
+.continer2_right_bottom {
+    margin-top: 40%;
+    margin-left: -55%;
+}
+
+
+
+.con2_bottom_left:hover {
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.con2_bottom_left {
+    background-color: white;
+    width: 57%;
+    height: 250px;
+    margin-left: -10%;
+    margin-top: -5%;
+    border-radius: 10px;
+}
+
+.con2_bottom_left img {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.con2_bottom_left h4 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.con2_bottom_left p {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #8B8C8C;
+}
+
+.con2_bottom_right:hover {
+    /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+}
+
+.con2_bottom_right {
+    background-color: white;
+    width: 57%;
+    height: 250px;
+    margin-top: -5%;
+    position: relative;
+    left: 14%;
+    margin-bottom: 20%;
+    border-radius: 10px;
+   
+}
+
+.con2_bottom_right img {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.con2_bottom_right h4 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.con2_bottom_right p {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #8B8C8C;
+}
+
+
+/* main qisim container2  ikinchi tugadi */
+
+/* main qisim container3  uchinch boshlandi */
+
+.main_container3{
+    background-color: #1282A6;
+}
+
+.some {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+
+.our {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+
+.con3_bottom_left {
+    border-right: 1px solid rgb(187, 181, 181);
+    padding-right: 90px;
+    
+    
+}
+
+
+
+.con3_bottom_left h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;  
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    
+    
+}
+
+.con3_bottom_left p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.003em;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+}
+
+.con3_bottom_center h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;  
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+}
+
+.con3_bottom_center p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.003em;
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+
+.con3_bottom_right h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;  
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+
+.con3_bottom_right p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.003em;
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+
+/* main qisim container3  uchinch tugadi */
+
+/* main qisim container4 turinchi boshlandi */
+
+
+.main_container4 {
+    width: 100%;
+    background: #F4FBFF;
+    height: 650px;
+}
+
+.con4_left {
+    width: 50%;
+    background-color: white;
+    position: relative;
+    margin-left: 2%;  
+    margin-bottom: 20%;
+    margin-top: 5%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.con4_left h3 {
+    padding-top: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+}
+
+.con-4 h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #2D2F30;
+    
+}
+
+.con4 {
+    border-width: 20px;
+    border-color: white  transparent transparent transparent ;
+    position: absolute;
+    border-style: solid;
+    bottom: -36px;
+    left: 46%;
+}
+
+.con4_left:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+
+.con4_left_button {
+    position: absolute;
+    bottom: -50%;
+    margin-left: 20%;
+}
+
+.con4_left_button img {
+    width: 60px;
+    height: 60px !important;
+}
+
+
+
+
+
+
+
+
+
+.con4_right {
+    width: 50%;
+    background-color: white;
+    position: relative;
+    margin-left: 2%;  
+    margin-bottom: 20%;
+    margin-top: 5%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.con4_right h3 {
+    padding-top: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+}
+
+.con4_right:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+
+.con4_r_t {
+    border-width: 20px;
+    border-color: white  transparent transparent transparent ;
+    position: absolute;
+    border-style: solid;
+    bottom: -36px;
+    left: 46%;
+}
+
+.con4_right_bottom {
+    position: absolute;
+    bottom: -144%;
+    right: 32%;
+}
+
+.con4_right_bottom img {
+    width: 60px;
+    height: 60px;
+}
+
+
+/* main qisim container4 turinchi tugadi */
+
+
+/* main qisim tugadi*/
+
+
+
